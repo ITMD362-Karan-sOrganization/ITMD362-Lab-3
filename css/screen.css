@@ -204,8 +204,78 @@ label {
 
 body{
 	background-color: gray;
+	text-align: center-left;
+}
+@media only screen and (min-width: 500px) {
+	body{
+	font-family: 'Times New Roman', monospace, sans-serif;
+	background-color: #979190;
+}
+}
+h1{
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+}
+
+#text{
+	font-family: 'Times New Roman', monospace, sans-serif;
+	text-align: center-left;
+	font-size: 5px;
+	padding: 10px 5px 10px 5px;
+	line-height: 7px;
+	color: #d9d7d7;
+}
+
+#p {
+	font-family: 'Times New Roman', monospace, serif;
+	text-align: center-left;
+	font-size: 5px;
+	padding: 10px 6px 10px 6px;
+	line-height: 8px;
+	color: #d9d7d7;
+}
+
+
+#input-email {
+	margin-left: 3%;
+	font-size: 10px;
+	padding-top: 200px;
 	text-align: center;
 }
+#email {
+	width: 80%;
+	margin: 5px 0px 5px 0px;
+	background: #766e6e;
+}
+input[type=checkbox] {
+	height: 10px;
+	width: 10px;
+	margin: 5px;
+}
+input[type=submit] {
+	background-color: #cacaca;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 25px;
+	font-size: 7px;
+	margin: 5px;
+}
+
+#input-age-verification
+ {
+	text-align: center;
+	font-size: 20px;
+}
+
+#input-submit
+{
+ text-align: center;
+ font-size: 25px;
+}
+
+
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
