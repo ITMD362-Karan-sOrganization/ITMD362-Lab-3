@@ -103,9 +103,9 @@ fieldset {
 legend {
   box-sizing: border-box; /* 1 */
   color:#BDBDBD ; /* 2 */
-  display: table-cell /* 1 */
+  display: table-cell; /* 1 */
   max-width: 100%; /* 1 */
-  padding: 3; /* 3 */
+  padding: 3px; /* 3 */
   white-space: normal; /* 1 */
 }
 
