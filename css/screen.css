@@ -203,8 +203,8 @@ label {
 }
 
 body{
-	background-color: gray;
-	text-align: center-left;
+	background-color: #979190 ;
+	text-align: center;
 }
 @media only screen and (min-width: 500px) {
 	body{
@@ -219,38 +219,38 @@ h1{
 
 #text{
 	font-family: 'Times New Roman', monospace, sans-serif;
-	text-align: center-left;
-	font-size: 5px;
+	text-align: center;
+	font-size: 10px;
 	padding: 10px 5px 10px 5px;
-	line-height: 7px;
+	line-height: 15px;
 	color: #d9d7d7;
 }
 
 #p {
 	font-family: 'Times New Roman', monospace, serif;
-	text-align: center-left;
-	font-size: 5px;
+	text-align: center;
+	font-size: 10px;
 	padding: 10px 6px 10px 6px;
-	line-height: 8px;
+	line-height: 15px;
 	color: #d9d7d7;
 }
 
 
 #input-email {
 	margin-left: 3%;
-	font-size: 10px;
+	font-size: 25px;
 	padding-top: 200px;
 	text-align: center;
 }
 #email {
 	width: 80%;
-	margin: 5px 0px 5px 0px;
+	margin: 15px 0px 15px 0px;
 	background: #766e6e;
 }
 input[type=checkbox] {
-	height: 10px;
-	width: 10px;
-	margin: 5px;
+	height: 30px;
+	width: 30px;
+	margin: 15px;
 }
 input[type=submit] {
 	background-color: #cacaca;
